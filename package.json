@@ -1,0 +1,33 @@
+{
+	"name": "firestore-batch",
+	"version": "1.0.0",
+	"description": "Create batches without a max size",
+	"main": "lib/index.js",
+	"types": "types/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kenmueller/firestore-batch.git"
+	},
+	"keywords": [
+		"firestore",
+		"firestore-admin",
+		"batch"
+	],
+	"author": "Ken Mueller",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/kenmueller/firestore-batch/issues"
+	},
+	"homepage": "https://github.com/kenmueller/firestore-batch#readme",
+	"scripts": {
+		"build": "node_modules/.bin/tsc"
+	},
+	"dependencies": {
+		"lodash": "^4.17.15"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4.14.149",
+		"tslint": "^6.0.0",
+		"typescript": "^3.7.5"
+	}
+}
